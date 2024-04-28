@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
         features = {"src/test/java/features/logintest.feature"},
         //path of step definition file
         glue = {"stepdefinitions"}
+        //tags="@smoke"
 )
-
 public class Testrunner {
 }
